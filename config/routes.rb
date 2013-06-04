@@ -1,5 +1,5 @@
-Chirp::Application.routes.draw do  
-  get "users/new"
+Chirp::Application.routes.draw do
+  resources :users
 
   root to: 'static_pages#home'
 
